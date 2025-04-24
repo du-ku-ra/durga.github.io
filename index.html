@@ -1,236 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Spin-off of "Project: DW's Recipe book"</title>
         <meta charset="utf-8">
-        
+        <title>Spin-off of "Project: Event invite"</title>
         <style>
-        body{
-            background-color:rgb(247, 234, 241);
-        }
-        h1{
-            background-color:rgb(240, 199, 14);
-            
-            margin-top: -0px;
-            margin-left:80px;
-            width:300px;
-            
-        }
         
-        h2{
-            background-color:white;
-        }
-        
-        #pinkgirl{
-        position:absolute;
-            margin-top: -100px;
-            margin-left:340px;
-            width:50px;
-            z-index:2;
-        }
-        
-        .contents{
-            border: 10px groove #00000;
-            background-color: rgb(230, 216, 230);
-        
-        }
-        
-        .pancake-image{
-            position:absolute;
-            margin-top: -60px;
-            margin-left:250px;
-            width:180px;
-            z-index:2;
-        }
-        
-        .omelette-image{
-          position:absolute;
-            margin-top: -45px;
-            margin-left:200px;
-            width:250px;
-            z-index:2;   
-        }
-        
-        .porridge-image{
-         position:absolute;
-            margin-top: -45px;
-            margin-left:200px;
-            width:250px;
-            z-index:2;     
-        }
+        .header {
+     background-color:rgb(10, 1, 10);
+      color:rgb(245, 178, 10);
+      font-family:cursive;
+      font-weight:bold;
+      text-align: center;
+      padding: 10px 10px;
+    }
+    
+    .header h1 {
+      margin:0;
+      font-size: 40px;
+    }
+      .content{
+    padding: 25px 20px;
+    color:rgb(23, 21, 17);
+    background-color:rgb(245, 178, 10);
+      }
+      
+      .footer {
+       font-style:italic;
+       font-weight:bold;
+       font-size:14px;
+       color:beige;
+       text-align: center;
+      }
+      
+      .button{
+          color:white;
+          font-weight:bold;
+          font-style:italic;
+          font-size:14px;
+          background-color:black;
+      }
         </style>
     </head>
-    
-    
     <body>
-       
-        <h1>DW's Recipe Book</h1>
-        <img id="pinkgirl" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/cute/CharacterPinkGirl.png"width="50">
-        
-        <h2 class="contents"> Contents:</h2>
-        
-        <ol>
-            <li><a href="#Recipe1">Pancakes</a></li>
-            <li><a href="#Recipe2">Cheese omelette</a></li>
-          <li><a href="#Recipe3">Cinnamon porridge</a></li>  
-         </ol>
-         
-         
-        <!-- First Recipe-->
-        <h2 id="Recipe1">Pancakes</h2>
-        
-        <ul>
-            <li>Time: 30min</li>
-            <li>Serves: 2 </li>
-        </ul>
-        
-    <img class="pancake-image"src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg/1200px-Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg">
+<div class="header">
+        <h1>You're invited!</h1>
+</div>
+
+<div class="content">
+        <h2>Space Tech Expo 2029</h2>
+        <p><strong>Date:</strong> 29 February 2099</p>
+      <p><strong>Time:</strong> 6:00 PM - 11:00 PM</p>
+      <p><strong>Location:</strong> 29 Empty Space Arena, Silicon Valley</p>
+      <p>
+        Join us for a night of futuristic innovation, live demos, and stellar networking among Earth's top tech minds and interplanetary startups.
+      </p>
     
-        <table>
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Flour</td>
-                <td>110g</td>
-            </tr>
-            <tr>
-                <td>Eggs</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>Milk</td>
-                <td>200ml</td>
-            </tr>
-            <tr>
-                <td>Butter</td>
-                <td>50g</td>
-            </tr>
-            </tbody>
-        </table>
-        
- <h3>Method</h3>
-        <p><strong>Step 1:</strong> Sift flour and into a mixing bowl with a sieve.</p>
-        <p><strong>Step 2:</strong> Now make a well in the centre of the flour and break the eggs into it.Then add milk and begin whisking the eggs,milk and flour altogether until mixure turn into a thin cream.    
-</p>
-       <p><strong>Step 3:</strong> Now melt the 50g of butter in a pan.When pan really hot pour 2 tablespoons of pancake mixure to the pan.
-</p> 
+    <button class="button" type="button" onclick="alert('Please RSVP by 19 February 2099 to Mars on 099292929')">RSVP</button>
+  
 
-<p><strong>Step 4:</strong> After 30 seconds flip the pancake over with a pan slice or palette knofe and cook for another few seconds.
-</p> 
-
-<p><strong>Step 5:</strong> To serve, spinkle each pancake with freshly squeezed lemon juice and caster sugar.
-</p> 
-
- <!-- second Recipe-->
- 
-  <h2 id="Recipe2">Cheese omelette</h2>
-        
-        <ul>
-            <li>Time: 15min</li>
-            <li>Serves: 1 </li>
-        </ul>
-        
-    <img class="omelette-image"src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Omelette-Plate.jpg/1200px-Omelette-Plate.jpg">
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Eggs</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Butter</td>
-                <td>1tsp</td>
-            </tr>
-             <tr>
-                <td>Cheddar</td>
-                <td>30g</td>
-            </tr>
-            </tbody>
-        </table>
-        
- <h3>Method</h3>
-        <p><strong>Step 1:</strong>Heat a small frying pan (preferably non-stick) over a medium heat. Add the butter and allow to melt (it should sizzle lightly). Swish the butter around by tilting the pan to cover the base.
- </p>
-        <p><strong>Step 2:</strong>Add in the eggs and, working quickly, push the just set edges toward the centre in soft folds, tipping the pan to fill in the space you've just uncovered with the uncooked egg. Repeat on all sides of the omelette evenly. These ripples in the omelette will make it fluffier and lighter.
-</p>
-       <p><strong>Step 3:</strong>When there is no more runny egg to move around, sprinkle the grated cheese over the omelette and cook for another 1–2 minutes until it is fairly set but still glossy on top. Don't be tempted to overcook the egg; it should be silky and soft, not rubbery.
-</p> 
-
-<p><strong>Step 4:</strong>Fold the omelette so the cheese is encased and cook for 1 more minute to warm the cheese through. Slide onto a warmed plate and serve with a cup of strong tea and some bread and butter. Or wrap it up to go!
-</p> 
-
- 
- <!-- Third Recipe-->
- 
-  <h2 id="Recipe3">Cinnamon porridge</h2>
-        
-        <ul>
-            <li>Time: 20min</li>
-            <li>Serves: 2 </li>
-        </ul>
-        
-    <img class="porridge-image"src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Oatmeal_%281%29.jpg/2560px-Oatmeal_%281%29.jpg">  
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Porridge oats</td>
-                <td>60g</td>
-            </tr>
-            <tr>
-                <td>ground cinnamon</td>
-                <td>1/4tsp</td>
-            </tr>
-            <tr>
-                <td>Milk</td>
-                <td>300ml</td>
-            </tr>
-            <tr>
-                <td>ripe pear</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>lemon</td>
-                <td>1wedge</td>
-            </tr>
-            
-            </tbody>
-        </table>
-        
- <h3>Method</h3>
-        <p><strong>Step 1:</strong>Put the oats and cinnamon in a non-stick saucepan with the milk and cook over a low-medium heat for 4-5 minutes, stirring constantly until rich and creamy. Pour into two deep bowls.
-            
-        </p>
-        <p><strong>Step 2:</strong>Coarsely grate the pear, and place on top of the porridge. Squeeze over the lemon juice and sprinkle with a tiny pinch of ground cinnamon.
-</p>
-     
- 
- 
-
-
-    <p><em>Source: <a href="https://www.bbc.co.uk/food">Some recipes websites</a></em></p>
-    
+ <div class="footer">
+     <br> Sent from the DW Galaxy of Tech - see you among the stars!
+    </div>
+</div>
     </body>
 </html>

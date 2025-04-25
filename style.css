@@ -1,0 +1,59 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+<style>
+body {
+  margin: 0;
+  height: 100%;
+  line-height: 1.6;
+  padding: 0;
+  
+}
+
+.c-site-header{
+  background-image:url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/201506/thumb-image_647_060515020243.jpg');
+  padding: 20px;
+  text-align: center;
+  font-family:cursive;
+  font-weight:bold;
+  font-size:20px
+}
+
+  .c-site-header nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 5px 5px 5px;
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+    }
+
+   .c-site-header nav li {
+      display: inline;
+    }
+
+
+.c-site-footer{
+  font-style:italic;
+       font-weight:bold;
+       font-size:14px;
+       color:grey;
+       text-align: center;
+} 
+
+main{
+  background-color:#ceebfd;
+  font-size:20px;
+} 
+ 
+#contact{ 
+  background-color:#e6e6e6;
+}
+   
+
+
+</style>

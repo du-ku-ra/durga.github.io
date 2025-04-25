@@ -1,66 +1,78 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Spin-off of "Project: Event invite"</title>
-        <style>
-        
-        .header {
-     background-color:rgb(10, 1, 10);
-      color:rgb(245, 178, 10);
-      font-family:cursive;
-      font-weight:bold;
-      text-align: center;
-      padding: 10px 10px;
-    }
-    
-    .header h1 {
-      margin:0;
-      font-size: 40px;
-    }
-      .content{
-    padding: 25px 20px;
-    color:rgb(23, 21, 17);
-    background-color:rgb(245, 178, 10);
-      }
-      
-      .footer {
-       font-style:italic;
-       font-weight:bold;
-       font-size:14px;
-       color:beige;
-       text-align: center;
-      }
-      
-      .button{
-          color:white;
-          font-weight:bold;
-          font-style:italic;
-          font-size:14px;
-          background-color:black;
-      }
-        </style>
-    </head>
-    <body>
-<div class="header">
-        <h1>You're invited!</h1>
-</div>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Home Page  Template</title>
+  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
 
-<div class="content">
-        <h2>Space Tech Expo 2029</h2>
-        <p><strong>Date:</strong> 29 February 2099</p>
-      <p><strong>Time:</strong> 6:00 PM - 11:00 PM</p>
-      <p><strong>Location:</strong> 29 Empty Space Arena, Silicon Valley</p>
-      <p>
-        Join us for a night of futuristic innovation, live demos, and stellar networking among Earth's top tech minds and interplanetary startups.
-      </p>
-    
-    <button class="button" type="button" onclick="alert('Please RSVP by 19 February 2099 to Mars on 099292929')">RSVP</button>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- =================
+  WRITE YOUR HTML HERE
+You only need to write the HTML that goes inside the <body> tag. To add things to the <head>, click the ⚙️ 
+   ===================
+-->
+<!--- All the tests are red! You have to make them green. 
+
+Q How do you make the tests pass?
+A Meet the requirements!
+
+Make the first test pass by adding a <header> </header>-->
+
+<body>
   
+ <header class="c-site-header">
+    <h1>Welcome to My World</h1>
+    <nav aria-label="Main Site Links">Main Site Links<br>
+      <ul style="list-style-type:none;">
+  <li><a href="#about">About Me</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+ <li><a href="#video">Video</a></li>
+ <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+     
+  <main>
+   
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Durga, a creative individual who loves photography, music, nature and web design. I enjoy learning new things every day and expressing myself through different forms of media. This website is a little attempt to share what I love and what inspires me. Whether it's a nature walk, a music playlist, or a creative idea, I'm always excited to discover and share.</p>
+      <p>I've been passionate about the digital world for years and have worked on various personal and collaborative projects. My favorite tools are my camera, my smartphone and my laptop. I believe creativity and curiosity can lead to amazing things. Feel free to explore and get to know me better!</p>
+    </section>
 
- <div class="footer">
-     <br> Sent from the DW Galaxy of Tech - see you among the stars!
-    </div>
-</div>
-    </body>
+    <section id="gallery">
+      <h2>Gallery</h2>     
+<img src="https://nt.global.ssl.fastly.net/binaries/content/gallery/website/national/library/our-cause/on-the-shore-borrowdale-and-derwent-water-1518851.jpg" alt="nature" width="500" height="333">
+      
+      
+ <p>This is one of my recent landscape shots taken during a weekend getaway. I love capturing nature’s quiet moments.</p>
+    </section>
+
+    <section id="video">
+      <h2>My Favorite Video</h2>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/lFcSrYw-ARY" title="YouTube video player" allowfullscreen></iframe>
+ 
+      <p>This video really resonates with me — it blends storytelling and visuals in such a beautiful way.</p>
+</section>
+      
+ <section id="contact">
+    <h2>Contact</h2>
+     Email:dd@xyz.com <br><br>
+     Telephone:045454545 
+ </section>     
+</main>
+  
+  <footer class="c-site-footer">
+    <p>Thank you for visiting my personal site. Feel free to reach out if you'd like to connect or collaborate on a project.</p>
+    <p>© 2025 Durga's Personal Website</p>
+</footer>
+  
+</body>
+<!-- partial -->
+  <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
+<script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
